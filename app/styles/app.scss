@@ -15,3 +15,15 @@
     display: none;
   }
 }
+
+.modal {
+  background: none;
+
+  .card {
+    margin: 0;
+  }
+
+  img {
+    max-height: 50vh;
+  }
+}
