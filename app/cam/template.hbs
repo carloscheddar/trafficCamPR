@@ -1,13 +1,13 @@
-{{#md-modal close="toggleModal"}}
+{{#md-modal close="close"}}
   <div class="card">
     <div class="card-image">
-      <img src="{{selectedCam.imageSource}}">
+      {{load-img src=model.imageSource}}
     </div>
     <div class="card-content">
       <span class="card-title grey-text text-darken-4">
-        {{selectedCam.name}}
+        {{model.name}}
       </span>
-      <p>{{selectedCam.location}}</p>
+      <p>{{model.location}}</p>
     </div>
   </div>
 {{/md-modal}}
