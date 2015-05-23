@@ -1,0 +1,12 @@
+<img src={{src}} class="loading-{{loading}}">
+
+<div class="image-container col s12">
+  {{#if loading}}
+    {{md-loader mode="circular" color="green"}}
+  {{/if}}
+
+  {{#if error}}
+    <i class="mdi-alert-error large"></i>
+    <p>The image failed to load</p>
+  {{/if}}
+</div>

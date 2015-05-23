@@ -6,3 +6,12 @@
     content: "\""+ $mdi-icon-value +"\"";
   }
 }
+
+.image-container {
+  text-align: center;
+  margin-top: 3em;
+
+  .loading-true {
+    display: none;
+  }
+}
