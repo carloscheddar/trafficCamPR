@@ -1,7 +1,8 @@
 {{partial "navbar"}}
+{{partial "search-bar"}}
 
 <div class="row">
-  {{#each cams as |cam|}}
+  {{#each filteredCams as |cam|}}
     <div class="col s12 m6 l3">
       <div class="card medium" {{action "toggleModal" cam}}>
         <div class="card-image">

@@ -9,7 +9,7 @@ export default Ember.Route.extend({
 
   actions: {
     close() {
-      this.transitionTo('/');
+      this.transitionTo('application');
     }
   }
 });
