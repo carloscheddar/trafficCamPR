@@ -7,7 +7,16 @@
   }
 }
 
-.image-container {
+nav .brand-logo {
+  font-size: 1.5rem;
+}
+
+.card.medium .card-image {
+  height: auto;
+  max-height: 250px;
+}
+
+.loading, .error {
   text-align: center;
   margin-top: 3em;
 
