@@ -1,12 +1,14 @@
 <img src={{src}} class="loading-{{loading}}">
 
-<div class="image-container col s12">
-  {{#if loading}}
+{{#if loading}}
+  <div class="loading col s12">
     {{md-loader mode="circular" color="green"}}
-  {{/if}}
+  </div>
+{{/if}}
 
-  {{#if error}}
+{{#if error}}
+  <div class="error col s12">
     <i class="mdi-maps-traffic large"></i>
     <p>Camera Offline</p>
-  {{/if}}
-</div>
+  </div>
+{{/if}}
