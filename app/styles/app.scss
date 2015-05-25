@@ -36,3 +36,10 @@ nav .brand-logo {
     max-height: 50vh;
   }
 }
+
+// Show full width modal on small devices
+@media only screen and (max-width: 600px) {
+  .modal {
+    width: 100%;
+  }
+}
