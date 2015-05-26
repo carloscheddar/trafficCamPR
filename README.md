@@ -1,7 +1,10 @@
-# Traffic-cam-pr
+# TrafficCamPR
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+A CCTV-style Dashboard for visualizing all [ITS/DTOP](its.dtop.gov.pr/es/TrafficCameras.aspx) traffic cameras in Puerto Rico. (built with EmberJS)
+
+## Built using BigBrotherPR
+
+* [BigBrotherPR](https://github.com/jonahoffline/big_brother_pr) - A Ruby client and library for ITS/DTOP's traffic cameras API.
 
 ## Prerequisites
 
