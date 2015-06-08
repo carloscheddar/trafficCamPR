@@ -8,6 +8,11 @@
         {{model.name}}
       </span>
       <p>{{model.location}}</p>
+      {{#if model.hasCoordinates}}
+        <div class="map-canvas">
+          {{google-map mapThumbnail=false lat=model.latitude lng=model.longitude}}
+        </div>
+      {{/if}}
     </div>
   </div>
 {{/md-modal}}
