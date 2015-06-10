@@ -12,8 +12,11 @@ nav .brand-logo {
 }
 
 .card.medium .card-image {
-  height: auto;
-  max-height: 250px;
+  height: 200px;
+}
+
+.card.medium .card-image #ember-view {
+  height: 100%;
 }
 
 .loading, .error {
@@ -36,6 +39,9 @@ nav .brand-logo {
     max-height: 50vh;
   }
 }
+.card.medium .card-content {
+  height: 200px;
+}
 
 .card-content {
   position: relative;
@@ -51,6 +57,13 @@ nav .brand-logo {
     width: 100%;
     height: 100%;
     opacity: .45;
+  }
+}
+
+.card-image .ember-view {
+
+  img{
+    height: 200px;
   }
 }
 
