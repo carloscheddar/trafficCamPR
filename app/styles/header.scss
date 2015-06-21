@@ -1,0 +1,40 @@
+.navbar.main {
+  background: url('images/header-only.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  z-index: 1000;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+
+  align-items: center;
+
+  -ms-justify-content: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+
+  -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  -moz-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+
+.brand-logo {
+  font-size: 1.5rem;
+  img {
+    width: 50%;
+    padding: 2em 0;
+    margin-left: -5%;
+  }
+}
+
+.navbar-fixed.search {
+  height: 15px;
+  nav {
+    top: 0;
+  }
+}
