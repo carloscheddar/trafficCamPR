@@ -1,4 +1,5 @@
 @import 'materialize';
+@import 'card-img';
 
 /* FIXME: Workaround for https://github.com/Dogfalo/materialize/issues/1079 */
 @each $mdi-icon-name, $mdi-icon-value in $mdi-list-icons {
@@ -9,14 +10,6 @@
 
 nav .brand-logo {
   font-size: 1.5rem;
-}
-
-.card.medium .card-image {
-  height: 200px;
-}
-
-.card.medium .card-image #ember-view {
-  height: 100%;
 }
 
 .loading, .error {
@@ -37,33 +30,6 @@ nav .brand-logo {
 
   img {
     max-height: 50vh;
-  }
-}
-.card.medium .card-content {
-  height: 200px;
-}
-
-.card-content {
-  position: relative;
-}
-
-.map-canvas {
-  position: absolute; 
-  top: 0; 
-  right: 0; 
-  bottom: 0; 
-  left: 0;
-  .ember-view{
-    width: 100%;
-    height: 100%;
-    opacity: .45;
-  }
-}
-
-.card-image .ember-view {
-
-  img{
-    height: 200px;
   }
 }
 
