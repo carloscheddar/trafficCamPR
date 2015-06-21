@@ -6,8 +6,8 @@ import {
 } from 'ember-mocha';
 
 describeComponent(
-  'traffic-cams',
-  'TrafficCamsComponent',
+  'google-map',
+  'GoogleMapComponent',
   {
     // specify the other units that are required for this test
     // needs: ['component:foo', 'helper:bar']

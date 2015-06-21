@@ -10,7 +10,7 @@ describeComponent(
   'LoadImgComponent',
   {
     // specify the other units that are required for this test
-    // needs: ['component:foo', 'helper:bar']
+    needs: ['component:md-loader']
   },
   function() {
     it('renders', function() {

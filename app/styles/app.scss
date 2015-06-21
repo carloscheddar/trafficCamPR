@@ -1,4 +1,5 @@
 @import 'materialize';
+@import 'card-img';
 
 /* FIXME: Workaround for https://github.com/Dogfalo/materialize/issues/1079 */
 @each $mdi-icon-name, $mdi-icon-value in $mdi-list-icons {
@@ -9,11 +10,6 @@
 
 nav .brand-logo {
   font-size: 1.5rem;
-}
-
-.card.medium .card-image {
-  height: auto;
-  max-height: 250px;
 }
 
 .loading, .error {
