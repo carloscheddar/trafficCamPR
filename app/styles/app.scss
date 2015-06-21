@@ -1,15 +1,12 @@
 @import 'materialize';
 @import 'card-img';
+@import 'header';
 
 /* FIXME: Workaround for https://github.com/Dogfalo/materialize/issues/1079 */
 @each $mdi-icon-name, $mdi-icon-value in $mdi-list-icons {
   .#{$mdi-prefix}#{$mdi-icon-name}:before {
     content: "\""+ $mdi-icon-value +"\"";
   }
-}
-
-nav .brand-logo {
-  font-size: 1.5rem;
 }
 
 .loading, .error {
