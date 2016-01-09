@@ -1060,11 +1060,41 @@ export default function cams() {
     "hasCoordinates":true
   },
   {
+    "name": "SAN JUAN-CAM 55",
+    "location": "PR-8 INT. ENTRADA PRINCIPAL MALL OF SAN JUAN",
+    "dateTime": "9/1/2016 7:09:53 PM",
+    "imageSource": "http://its.dtop.gov.pr/images/cameras/SJCAM55/SJCAM55.jpg",
+    "id": 107,
+    "latitude": 18.413211,
+    "longitude": -66.023389,
+    "hasCoordinates": true
+  },
+  {
+    "name": "SAN JUAN-CAM 56",
+    "location": "PR-8 INT. CALLE SIMON MADERA",
+    "dateTime": "31/12/1600 8:00:00 PM",
+    "imageSource": "http://its.dtop.gov.pr/images/cameras/SJCAM56/SJCAM56.jpg",
+    "id": 108,
+    "latitude": 18.3993562,
+    "longitude": -66.0181899,
+    "hasCoordinates": true
+  },
+  {
+    "name": "SAN JUAN-CAM 57",
+    "location": "PR-181 INT URB. PARKGARDENS",
+    "dateTime": "9/1/2016 7:08:55 PM",
+    "imageSource": "http://its.dtop.gov.pr/images/cameras/SJCAM57/SJCAM57.jpg",
+    "id": 109,
+    "latitude": 18.38886,
+    "longitude": -66.03089,
+    "hasCoordinates": true
+  },
+  {
     "name":"TRUJILLOALTO-CAM 01",
     "location":"PR-181 INT URB. ENCANTADA",
     "dateTime":"31/12/1600 8:00:00 PM",
     "imageSource":"http://its.dtop.gov.pr/images/cameras/TRULLOCAM01/TRULLOCAM01.jpg",
-    "id":107,
+    "id":110,
     "latitude":18.3554231,
     "longitude":-66.0008029,
     "hasCoordinates":true
@@ -1074,7 +1104,7 @@ export default function cams() {
     "location":"PR-181 INT PLAZA TRUJILLO",
     "dateTime":"31/12/1600 8:00:00 PM",
     "imageSource":"http://its.dtop.gov.pr/images/cameras/TRULLOCAM02/TRULLOCAM02.jpg",
-    "id":108,
+    "id":111,
     "latitude":18.3682783,
     "longitude":-66.01222469999999,
     "hasCoordinates":true
@@ -1084,7 +1114,7 @@ export default function cams() {
     "location":"PR-181 INT URB. PARKGARDENS",
     "dateTime":"31/12/1600 8:00:00 PM",
     "imageSource":"http://its.dtop.gov.pr/images/cameras/TRULLOCAM03/TRULLOCAM03.jpg",
-    "id":109,
+    "id":112,
     "latitude":18.3853888,
     "longitude":-66.0371454,
     "hasCoordinates":true
@@ -1094,7 +1124,7 @@ export default function cams() {
     "location":"TERMINAL ATM VIEQUES",
     "dateTime":"22/6/2015 12:41:58 AM",
     "imageSource":"http://its.dtop.gov.pr/images/cameras/VIEQUESCAM01/VIEQUESCAM01.jpg",
-    "id":110,
+    "id":113,
     "latitude":18.152269,
     "longitude":-65.442861,
     "hasCoordinates":true
